@@ -1,6 +1,6 @@
 <script>
 document.addEventListener('DOMContentLoaded', () => {
- document.querySelectorAll('.dark-mode-switch').forEach(trigger => {
+ document.querySelectorAll('#darkmode').forEach(trigger => {
   trigger.addEventListener('click', function(){ 
     this.x = ((this.x || 0) + 1)%2; 
     if(this.x){ 
