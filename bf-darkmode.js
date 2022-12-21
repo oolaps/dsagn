@@ -55,7 +55,9 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.p').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.button_menu').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.image-caption').forEach(target => target.classList.add('is-dark'));
-      document.querySelectorAll('.toc').forEach(target => target.classList.add('is-dark'));              
+      document.querySelectorAll('.toc').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.container-large .is-bonus-section').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.border-bottom').forEach(target => target.classList.add('is-dark'));
       }
       else{ 
       document.querySelectorAll('.body').forEach(target => target.classList.remove('is-dark'));
@@ -110,7 +112,9 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.p').forEach(target => target.classList.remove('is-dark')); 
       document.querySelectorAll('.button_menu').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.image-caption').forEach(target => target.classList.remove('is-dark'));
-      document.querySelectorAll('.toc').forEach(target => target.classList.remove('is-dark'));     
+      document.querySelectorAll('.toc').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.container-large .is-bonus-section').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.border-bottom').forEach(target => target.classList.remove('is-dark'));
       } 
     });
  });
