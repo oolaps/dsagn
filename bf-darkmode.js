@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.menu-header').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.menu-row').forEach(target => target.classList.add('is-dark'));  
       document.querySelectorAll('.p').forEach(target => target.classList.add('is-dark'));
-      document.querySelectorAll('.button_icon .is-menu').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.button_menu').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.image-caption').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.toc').forEach(target => target.classList.add('is-dark'));              
       }
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.menu-header').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.menu-row').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.p').forEach(target => target.classList.remove('is-dark')); 
-      document.querySelectorAll('.button_icon .is-menu').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.button_menu').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.image-caption').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.toc').forEach(target => target.classList.remove('is-dark'));     
       } 
