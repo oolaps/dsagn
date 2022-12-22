@@ -7,7 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.button').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.text-color-grey').forEach(target => target.classList.add('is-dark')); 
       document.querySelectorAll('.text-color-green').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.text-color-darkgreen').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.text-color-blue').forEach(target => target.classList.add('is-dark')); 
+      document.querySelectorAll('.text-color-orange').forEach(target => target.classList.add('is-dark')); 
       document.querySelectorAll('.element-title').forEach(target => target.classList.add('is-dark')); 
       document.querySelectorAll('.element-wrapper').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.card').forEach(target => target.classList.add('is-dark'));
@@ -61,13 +63,17 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.text-color-lightblue').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.float_offer').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.float_offer-logo').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.bonus_item-facts').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.bonus_item-facts-col').forEach(target => target.classList.add('is-dark'));
       }
       else{ 
       document.querySelectorAll('.body').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.button').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.text-color-grey').forEach(target => target.classList.remove('is-dark'));    
       document.querySelectorAll('.text-color-green').forEach(target => target.classList.remove('is-dark'));
-      document.querySelectorAll('.text-color-blue').forEach(target => target.classList.remove('is-dark')); 
+      document.querySelectorAll('.text-color-darkgreen').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.text-color-blue').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.text-color-orange').forEach(target => target.classList.remove('is-dark')); 
       document.querySelectorAll('.element-title').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.element-wrapper').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.card').forEach(target => target.classList.remove('is-dark'));
@@ -121,6 +127,8 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.text-color-lightblue').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.float_offer').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.float_offer-logo').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.bonus_item-facts').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.bonus_item-facts-col').forEach(target => target.classList.remove('is-dark'));
       } 
     });
  });
