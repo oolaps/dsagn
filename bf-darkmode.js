@@ -67,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.bonus_item-facts-col').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.table-head-mobile').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.cover-photo_logo').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.bonus_item-info-label').forEach(target => target.classList.add('is-dark'));
       }
       else{ 
       document.querySelectorAll('.body').forEach(target => target.classList.remove('is-dark'));
@@ -133,6 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.bonus_item-facts-col').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.table-head-mobile').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.cover-photo_logo').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.bonus_item-info-label').forEach(target => target.classList.remove('is-dark'));
       } 
     });
  });
