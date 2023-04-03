@@ -70,6 +70,8 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.bonus_item-info-label').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.menu-link-sub').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.loading-spinner').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.payment_icon_large').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.bonus_item-payment-wrapper').forEach(target => target.classList.add('is-dark'));
       }
       else{ 
       document.querySelectorAll('.body').forEach(target => target.classList.remove('is-dark'));
@@ -139,6 +141,8 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.bonus_item-info-label').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.menu-link-sub').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.loading-spinner').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.payment_icon_large').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.bonus_item-payment-wrapper').forEach(target => target.classList.remove('is-dark'));
       } 
     });
  });
