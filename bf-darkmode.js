@@ -72,6 +72,8 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.loading-spinner').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.payment_icon_large').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.bonus_item-payment-wrapper').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.card_howto-item').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.card_howto-title').forEach(target => target.classList.add('is-dark'));
       }
       else{ 
       document.querySelectorAll('.body').forEach(target => target.classList.remove('is-dark'));
@@ -143,6 +145,8 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.loading-spinner').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.payment_icon_large').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.bonus_item-payment-wrapper').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.card_howto-item').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.card_howto-title').forEach(target => target.classList.remove('is-dark'));
       } 
     });
  });
