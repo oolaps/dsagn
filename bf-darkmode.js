@@ -75,6 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.card_howto-item').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.card_howto-title').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.section_hero').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.press-logos-container-hero').forEach(target => target.classList.add('is-dark'));
       }
       else{ 
       document.querySelectorAll('.body').forEach(target => target.classList.remove('is-dark'));
@@ -149,6 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.card_howto-item').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.card_howto-title').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.section_hero').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.press-logos-container-hero').forEach(target => target.classList.remove('is-dark'));
       } 
     });
  });
