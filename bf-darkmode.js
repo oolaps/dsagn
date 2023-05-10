@@ -77,6 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.section_hero').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.press-logos-container-hero').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.live-jackpot').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.test').forEach(target => target.classList.add('is-dark'));
       }
       else{ 
       document.querySelectorAll('.body').forEach(target => target.classList.remove('is-dark'));
@@ -153,6 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.section_hero').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.press-logos-container-hero').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.live-jackpot').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.test').forEach(target => target.classList.remove('is-dark'));
       } 
     });
  });
