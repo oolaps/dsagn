@@ -82,6 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.exit-popup-card').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.exit-popup-card-top').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.exit-popup-wrapper').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.popup-overlay').forEach(target => target.classList.add('is-dark'));
       }
       else{ 
       document.querySelectorAll('.body').forEach(target => target.classList.remove('is-dark'));
@@ -163,6 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.exit-popup-card').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.exit-popup-card-top').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.exit-popup-wrapper').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.popup-overlay').forEach(target => target.classList.remove('is-dark'));
       } 
     });
  });
