@@ -79,7 +79,8 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.press-logos-container-hero').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.live-jackpot').forEach(target => target.classList.add('is-dark'));
       document.querySelectorAll('.trust-pilot-wrapper').forEach(target => target.classList.add('is-dark'));
-      document.querySelectorAll('.button .back-to-top').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.exit-popup-card').forEach(target => target.classList.add('is-dark'));
+      document.querySelectorAll('.exit-popup-card-top').forEach(target => target.classList.add('is-dark'));
       }
       else{ 
       document.querySelectorAll('.body').forEach(target => target.classList.remove('is-dark'));
@@ -158,7 +159,8 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.press-logos-container-hero').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.live-jackpot').forEach(target => target.classList.remove('is-dark'));
       document.querySelectorAll('.trust-pilot-wrapper').forEach(target => target.classList.remove('is-dark'));
-      document.querySelectorAll('.button .back-to-top').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.exit-popup-card').forEach(target => target.classList.remove('is-dark'));
+      document.querySelectorAll('.exit-popup-card-top').forEach(target => target.classList.remove('is-dark'));
       } 
     });
  });
